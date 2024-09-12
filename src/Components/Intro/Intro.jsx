@@ -32,7 +32,7 @@ const Intro = () => {
     {/* right side section */}
 
     <div className='i-right'>
-    <img src="img/Vector1.png" alt="icon is missing"/>
+    <img src="image/Vector1.png" alt="icon is missing"/>
     <img src="img/Vector2.png" alt="icon is missing"/>
     <img src="img/boy.png" alt="icon is missing"/>
     <motion.img 
