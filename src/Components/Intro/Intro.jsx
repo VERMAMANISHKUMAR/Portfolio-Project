@@ -12,7 +12,7 @@ const Intro = () => {
     {/* left side section */}
     <div className='i-left'>
     <div className='i-name'>
-          <span>Hy! I Am</span>
+          <span>Hy! I </span>
           <span>Manish Kumar Verma</span>
           <span>Frontend Developer with high level of experience in web designing and development, <br/>producting the Quality work in <br/>Seeking Full Stack Web Developer Role Proficient in HTML5, CSS, Bootstrap, <br/>JavaScript, React, Node.js, Express, MySQL, WordPress, and PHP.</span>
     </div>
