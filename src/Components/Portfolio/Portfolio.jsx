@@ -1,6 +1,10 @@
 import React from 'react'
 import './Portfolio.css'
 import {Swiper, SwiperSlide} from 'swiper/react'
+import MogoDB from '../../images/img/mongo-db.png'
+import Express from '../../images/img/express-js.png'
+import ReactJS from '../../images/img/react-js.png'
+import Node from '../../images/img/node-js.png'
 import 'swiper/css'
 
 
@@ -18,16 +22,16 @@ const Portfolio = () => {
     <Swiper  spaceBetween={30} slidesPerView={3} grabCursor={true} className='portfolio-slider'>
          
          <SwiperSlide>
-          <img src="img/mongo-db.png" alt="portfolie img" className='mongo-db'/> 
+          <img src={MogoDB} alt="portfolie img" className='mongo-db'/> 
           </SwiperSlide>
           <SwiperSlide>
-          <img src="img/express-js.png" alt="icon is missing" className='express'/> 
+          <img src={Express} alt="icon is missing" className='express'/> 
           </SwiperSlide>
           <SwiperSlide>
-          <img src="img/react-js.png" alt="icon is missing" className='react' /> 
+          <img src={ReactJS} alt="icon is missing" className='react' /> 
           </SwiperSlide>
           <SwiperSlide>
-          <img src="img/node-js.png" alt="icon is missing" className='node'/>   
+          <img src={Node} alt="icon is missing" className='node'/>   
           </SwiperSlide>
           
     </Swiper>

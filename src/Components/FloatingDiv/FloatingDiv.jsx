@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'// this import file is use for the motion
-
+import Crown from '../../images/img/crown.png'
 import './FloatingDiv.css'
 
 const FloatingDiv = () => {
@@ -12,7 +12,7 @@ const FloatingDiv = () => {
       transition={transition} // this transition is used
      
     className='floatingdiv'>
-     <img src="img/crown.png" alt="icon is missing" className='corwn'/>
+     <img src={Crown} alt="icon is missing" className='corwn'/>
      <span>Web
      <br/>
      Developer

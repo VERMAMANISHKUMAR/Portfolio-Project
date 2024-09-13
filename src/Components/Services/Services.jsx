@@ -2,6 +2,9 @@ import React from 'react'
 import './Services.css'
 import Resume from './Resume.pdf'
 import { motion } from 'framer-motion';//this is the motion object that will be used MOTION object
+import Heartemoji from '../../images/img/heartemoji.png'
+import Glasses from '../../images/img/glasses.png'
+import Humble from '../../images/img/humble.png'
 
 const Services = () => {
   const transition={duration :2, type:'spring'}
@@ -17,7 +20,7 @@ const Services = () => {
     <a href={Resume} download>
     <button className='button s-button'>Download CV</button>
     </a>
-    <div className='blur s-blur2' style={{background:'#ABF1FF94'}}></div>
+    {/* <div className='blur s-blur2' style={{background:'#ABF1FF94'}}></div> */}
 
     </div>
     {/* Right side content */}
@@ -28,7 +31,7 @@ const Services = () => {
     
     className='cards-1'>
       <div>
-       <img src="img/heartemoji.png" alt="icon is missing" className='heatemoji'/>
+       <img src={Heartemoji} alt="icon is missing" className='heatemoji'/>
          <span>Detail</span><br/>
          
          <span>Figma, Sketch, photoshop, Adobe, Adobe xd </span>
@@ -36,7 +39,7 @@ const Services = () => {
          
           <a href='https://www.w3schools.com/quiztest/'><button className='c-button'>LEARN MORE</button></a>
          </div>
-         <div className='blur s-blur2' style={{background:'var(--purple)'}}></div>
+         {/* <div className='blur s-blur2' style={{background:'var(--purple)'}}></div> */}
 
     </motion.div>
 
@@ -48,13 +51,13 @@ const Services = () => {
     
     className='cards-2'>
       <div>
-       <img src="img/Glasses.png" alt="icon is missing" className='Glasses'/>
+       <img src={Glasses} alt="icon is missing" className='Glasses'/>
          <span>Developer</span><br/>
          
          <span>Html, Css, JavaScript, React</span>
          <a href='https://cheatsheets.shecodes.io/react'><button className='c-button'>LEARN MORE</button></a>
          </div>
-         <div className='blur s-blur2' style={{background:'var(--purple)'}}></div>
+         {/* <div className='blur s-blur2' style={{background:'var(--purple)'}}></div> */}
 
     </motion.div>
     {/* card -3 */}
@@ -66,7 +69,7 @@ const Services = () => {
     
     className='cards-3'>
       <div>
-       <img src="img/Humble.png" alt="icon is missing" className='Humble'/>
+       <img src={Humble} alt="icon is missing" className='Humble'/>
          <span>UI/UX</span><br/>
          
          <span> Dummy text are usually use.</span>
@@ -75,7 +78,7 @@ const Services = () => {
          <button className='c-button'>LEARN MORE</button>
   
          </div>
-         <div className='blur s-blur2' style={{background:'var(--purple)'}}></div>
+         {/* <div className='blur s-blur2' style={{background:'var(--purple)'}}></div> */}
 
     </motion.div>
    

@@ -4,7 +4,7 @@ import Insta from '@iconscout/react-unicons/icons/uil-instagram'
 import Fessbook from '@iconscout/react-unicons/icons/uil-facebook'
 import Github from '@iconscout/react-unicons/icons/uil-github'
 import Linkedln  from '@iconscout/react-unicons/icons/uil-linkedin'
-import Wave  from "../../image/wave.png"
+import Wave  from "../../images/img/wave.png"
 
 const Footer = () => {
   return (

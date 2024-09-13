@@ -1,11 +1,11 @@
 import React from 'react'
 import './Testimonial.css';
-import profilePic1 from '../../image/profile1.jpg';
-import profilePic2 from '../../image/profile2.jpg';
-import profilePic3 from '../../image/profile3.jpg';
-import profilePic4 from '../../image/profile4.jpg';
-import profilePic5 from '../../image/profile5.jpg';
-import profilePic6 from '../../image/profile6.jpg';
+import profilePic1 from '../../images/img/profile1.jpg';
+import profilePic2 from '../../images/img/profile2.jpg';
+import profilePic3 from '../../images/img/profile3.jpg';
+import profilePic4 from '../../images/img/profile4.jpg';
+import profilePic5 from '../../images/img/profile5.jpg';
+import profilePic6 from '../../images/img/profile6.jpg';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css';
@@ -48,8 +48,7 @@ const Testimonial = () => {
      <span>Clients always get </span>
      <span>Exceptinal Work </span>
      <span>from me...</span>
-     <div className='blur t-blur1' style={{background:"var(--purple)"}}></div>
-     <div className='blur t-blur2' style={{background:"skyblue"}}></div>
+    
      </div>
      {/* sliders */}
      <Swiper

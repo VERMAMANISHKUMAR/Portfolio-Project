@@ -42,7 +42,7 @@ const Email = () => {
         <div className='awesome'>
           <span>Get in touch</span>
           <span>Contact me</span>
-          <div className='blur c-blur2' style={{ background: "skyblue" }}></div>
+          {/* <div className='blur c-blur2' style={{ background: "skyblue" }}></div> */}
         </div>
       </div>
 
@@ -76,7 +76,7 @@ const Email = () => {
           ></textarea>
           {isSubmitted && <span>Thanks for contacting me!</span>}
           <input type="submit" value="Send" className='button s-button' />
-          <div className='blur c-blur1' style={{ background: 'var(--purple)' }}></div>
+          {/* <div className='blur c-blur1' style={{ background: 'var(--purple)' }}></div> */}
         </form>
       </div>
     </div>
